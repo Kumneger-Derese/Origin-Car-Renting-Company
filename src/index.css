@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/Poppins-Regular2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Grained';
+    src: url('/grained-regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+@theme {
+    --font-primary: Grained;
+    --color-primary: #2F3C4C;
+    --color-background: #EDEFEF;
+    --color-base: #344151;
+    --color-light: #FBFBFB;
+    --color-gold: #C0A47D;
+    --color-gold-bg: #FFEBD4;
+}
