@@ -37,7 +37,7 @@ const Faq = () => {
         <div ref={containerRef} className={'flex flex-col gap-y-8'}>
             <div className={'flex flex-col gap-y-2 items-center justify-center'}>
                 <h1 className={'font-bold text-4xl'}>FAQ</h1>
-                <p>A quick response for frequently asked questions.</p>
+                <p className={'text-center'}>A quick response for frequently asked questions.</p>
             </div>
 
             {/*Faq List*/}
